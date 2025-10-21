@@ -8,7 +8,6 @@ const galleryWrapper = document.getElementById("gallery-slides");
 const galleryFiles = [
   "1.png",
   "2.jpg",
-  "3.mp4",
   "4.jpg",
   "5.jpg"
   // هر چی خواستی اضافه کن
