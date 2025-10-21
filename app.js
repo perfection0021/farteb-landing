@@ -289,6 +289,8 @@ if (openBtn && modal && closeBtn && reviewVideo) {
     e.preventDefault();
     modal.style.display = "flex";
     reviewVideo.currentTime = 0;
+    reviewVideo.muted = false;
+    reviewVideo.volume = 1.0;
     reviewVideo.play();
   });
 
